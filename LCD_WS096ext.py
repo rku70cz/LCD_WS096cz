@@ -14,8 +14,8 @@
 # https://www.waveshare.com/w/upload/9/9c/Pico_LCD_code.zip
 #
 # vytvoreno:       23.05.2022 (RKu70cz)
-# verze:           1.00
-# posledni uprava: 25.05.2022 (RKu70cz)
+# verze:           1.10
+# posledni uprava: 26.05.2022 (RKu70cz)
 #
 # (c) 2022, RKu70cz
 # ---------------------------------------------------------------------
@@ -47,16 +47,17 @@ from machine import Pin,PWM
 class LCD_WS096(LCD_WS096.LCD_WS096lite):
     def __init__(self, BoardType="unknown"):
 
-        self.board = "unknown"               # vychozi hodnota property 'board'
+        self.board = "unknown"                   # vychozi hodnota property 'board'
         
-        BoardType = BoardType.lstrip()       # upravi vstupni parametr, oreze mezery zleva
-        BoardType = BoardType.rstrip()       # oreze pripadne mezery zprava
-        BoardType = BoardType.upper()        # prevede na VELKA PISMENA
-
         if isinstance( BoardType, str ):
             if ( len(BoardType) > 0 ):
+                
+                BoardType = BoardType.lstrip()   # upravi vstupni parametr, oreze mezery zleva
+                BoardType = BoardType.rstrip()   # oreze pripadne mezery zprava
+                BoardType = BoardType.upper()    # prevede na VELKA PISMENA
+
                 if ( BoardType == "RP2040-LCD-0.96" or BoardType == "PICO-LCD-0.96" ):
-                    self.board = BoardType   # pokud jde o korektni hodnotu zapise ji do nove property 'board'
+                    self.board = BoardType       # pokud jde o korektni hodnotu zapise ji do nove property 'board'
 
         # zavola puvodni konstruktor tridy "LCD_WS096lite"
         super().__init__()
