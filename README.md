@@ -1,14 +1,14 @@
 # LCD_WS096cz
-Ukázky kódu včetně tříd pro obsluhu hardware rozšiřujících desek výrobce Waveshare určených pro Raspberry Pi Pico v jazyce MicroPython
+Ukázky kódu včetně tříd pro obsluhu hardware rozšiřujících desek výrobce Waveshare určených pro Raspberry Pi Pico v jazyce MicroPython.
 
 + Waveshare RP2040-LCD-0.96
 + Waveshare Pico LCD 0.96
 
-Volně k dispozici pro použití a další úpravy či jako inspirace pro vlastní tvorbu. Primárně s českým popisem a komentáři v kódu.
+*Volně k dispozici pro použití a další úpravy či jako inspirace pro vlastní tvorbu. Primárně s českým popisem a komentáři v kódu.*
 
 ---
 
-*Code samples including classes for handling the hardware expansion boards of the manufacturer Waveshare designed for the Raspberry Pi Pico in the MicroPython language*
+Code samples including classes for handling the hardware expansion boards of the manufacturer Waveshare designed for the Raspberry Pi Pico in the MicroPython language.
 
 + Waveshare RP2040-LCD-0.96
 + Waveshare Pico LCD 0.96
