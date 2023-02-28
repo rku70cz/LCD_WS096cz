@@ -20,7 +20,6 @@
 **Waveshare Pico LCD 0.96**
 
 + LCD_WS096.py
-
 + LCD_WS096ext.py
 
 solves the operation of the 0.96'' LCD display on both boards
