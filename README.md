@@ -8,12 +8,12 @@ Volně k dispozici pro použití a další úpravy či jako inspirace pro vlastn
 
 ---
 
-* Code samples including classes for handling the hardware expansion boards of the manufacturer Waveshare designed for the Raspberry Pi Pico in the MicroPython language *
+*Code samples including classes for handling the hardware expansion boards of the manufacturer Waveshare designed for the Raspberry Pi Pico in the MicroPython language*
 
 + Waveshare RP2040-LCD-0.96
 + Waveshare Pico LCD 0.96
 
-* Freely available for use and further modifications or as inspiration for your own creation. Primarily with Czech description and comments in the code. *
+*Freely available for use and further modifications or as inspiration for your own creation. Primarily with Czech description and comments in the code.*
 
 ---
 
