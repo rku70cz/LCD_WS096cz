@@ -2,7 +2,7 @@
 + Waveshare RP2040-LCD-0.96
 + Waveshare Pico LCD 0.96
 
-**LCD_WS096.py**
+**+ LCD_WS096.py**
 
 **LCD_WS096ext.py**
 
