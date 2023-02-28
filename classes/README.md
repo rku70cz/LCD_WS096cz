@@ -1,6 +1,6 @@
-# Moduly tříd pro obsluhu hardware desek
-Waveshare RP2040-LCD-0.96
-Waveshare Pico LCD 0.96
+## Moduly tříd pro obsluhu hardware desek
+**Waveshare RP2040-LCD-0.96**
+**Waveshare Pico LCD 0.96**
 
 LCD_WS096.py
 
@@ -14,7 +14,7 @@ KEYs_WS096.py
 
 ---
 
-# Class modules for handling hardware boards
+## Class modules for handling hardware boards
 Waveshare RP2040-LCD-0.96
 Waveshare Pico LCD 0.96
 
