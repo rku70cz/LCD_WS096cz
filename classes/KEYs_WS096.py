@@ -12,7 +12,7 @@
 #
 # vytvoreno:       24.02.2023 (RKu70cz)
 # verze:           1.00
-# posledni uprava: 28.02.2023 (RKu70cz)
+# posledni uprava: 02.03.2023 (RKu70cz)
 #
 # (c) 2023, RKu70cz
 # ---------------------------------------------------------------------
@@ -25,7 +25,7 @@ from machine import Timer
 JOY_UP = 38      # sipka nahoru
 JOY_DOWN = 40    # sipka dolu
 JOY_LEFT = 37    # sipka doleva
-JOY_RIGHT = 39   # sipka nahoru
+JOY_RIGHT = 39   # sipka doprava
 JOY_ENTER = 13   # enter
 
 BUTTON_A = 65    # klavesa A
@@ -155,10 +155,11 @@ class KEYs_WS096timer():
     #
     # navratovy kod stejny jako u klaves standardu PC:
     #
+    # 00   ---
     # 38   sipka nahoru
     # 40   sipka dolu
     # 37   sipka doleva
-    # 39   sipka nahoru
+    # 39   sipka doprava
     # 13   enter
     # 65   klavesa A
     # 66   klasesa B
