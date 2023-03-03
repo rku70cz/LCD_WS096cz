@@ -20,3 +20,5 @@ Code samples including classes for handling the hardware expansion boards of the
 ![Waveshare RP2040-LCD-0 96](https://user-images.githubusercontent.com/104675746/221903266-4e0dcd90-bac4-4238-9047-f4aea33a78eb.jpg)
 
 ![Waveshare Pico LCD 0 96](https://user-images.githubusercontent.com/104675746/221903260-2f03fb6b-c191-4208-8905-7642ab055ea5.jpg)
+
+![Waveshare Pico LCD 0 96 DEMO]
